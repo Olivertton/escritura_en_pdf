@@ -1,5 +1,5 @@
 // Service worker: guarda la app para que funcione sin internet.
-const VERSION = '0.1.1';
+const VERSION = '0.2.0';
 const CACHE = 'lector-pdf-' + VERSION;
 const CORE = ["./FoxitDingbats.pfb","./FoxitFixed.pfb","./FoxitFixedBold.pfb","./FoxitFixedBoldItalic.pfb","./FoxitFixedItalic.pfb","./FoxitSerif.pfb","./FoxitSerifBold.pfb","./FoxitSerifBoldItalic.pfb","./FoxitSerifItalic.pfb","./FoxitSymbol.pfb","./LICENSES.txt","./LiberationSans-Bold.ttf","./LiberationSans-BoldItalic.ttf","./LiberationSans-Italic.ttf","./LiberationSans-Regular.ttf","./app.css","./app.js","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./jbig2.wasm","./manifest.webmanifest","./openjpeg.wasm","./pdf.worker.js","./qcms_bg.wasm","./"];
 
