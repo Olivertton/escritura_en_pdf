@@ -1,7 +1,7 @@
 // Service worker: guarda la app para que funcione sin internet.
-const VERSION = '0.3.1';
+const VERSION = '0.4.0';
 const CACHE = 'lector-pdf-' + VERSION;
-const CORE = ["./FoxitDingbats.pfb","./FoxitFixed.pfb","./FoxitFixedBold.pfb","./FoxitFixedBoldItalic.pfb","./FoxitFixedItalic.pfb","./FoxitSerif.pfb","./FoxitSerifBold.pfb","./FoxitSerifBoldItalic.pfb","./FoxitSerifItalic.pfb","./FoxitSymbol.pfb","./LICENSES.txt","./LiberationSans-Bold.ttf","./LiberationSans-BoldItalic.ttf","./LiberationSans-Italic.ttf","./LiberationSans-Regular.ttf","./app.css","./app.js","./banco-a1.json","./banco-a2-1.json","./banco-a2-2.json","./banco-a2-3.json","./banco-indice.json","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./jbig2.wasm","./manifest.webmanifest","./openjpeg.wasm","./pdf.worker.js","./qcms_bg.wasm","./"];
+const CORE = ["./FoxitDingbats.pfb","./FoxitFixed.pfb","./FoxitFixedBold.pfb","./FoxitFixedBoldItalic.pfb","./FoxitFixedItalic.pfb","./FoxitSerif.pfb","./FoxitSerifBold.pfb","./FoxitSerifBoldItalic.pfb","./FoxitSerifItalic.pfb","./FoxitSymbol.pfb","./LICENSES.txt","./LiberationSans-Bold.ttf","./LiberationSans-BoldItalic.ttf","./LiberationSans-Italic.ttf","./LiberationSans-Regular.ttf","./app.css","./app.js","./banco-a1.json","./banco-a2-1.json","./banco-a2-2.json","./banco-a2-3.json","./banco-indice.json","./banco-it-a1-1.json","./banco-it-a1-2.json","./banco-it-a2-1.json","./banco-it-a2-2.json","./banco-it-a2-3.json","./banco-it-b1-1.json","./banco-it-b1-2.json","./banco-it-indice.json","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./jbig2.wasm","./manifest.webmanifest","./openjpeg.wasm","./pdf.worker.js","./qcms_bg.wasm","./"];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(
